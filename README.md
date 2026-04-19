@@ -57,3 +57,79 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Sistem Booking Lapangan
+
+Website sistem booking lapangan olahraga yang memudahkan pengguna untuk melakukan pemesanan lapangan secara online, melihat jadwal ketersediaan, dan mengelola data booking dengan mudah.
+
+## Fitur Utama
+
+* Booking lapangan secara online
+* Cek jadwal ketersediaan lapangan
+* Manajemen data pengguna
+* Riwayat pemesanan
+* Dashboard admin
+* Kelola data lapangan
+* Kelola transaksi pembayaran
+* Laporan booking
+
+## Cara Install Project
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/khalizzz/sistem-booking-lapangan.git
+```
+
+2. Masuk ke folder project:
+
+```bash
+cd sistem-booking-lapangan
+```
+
+3. Install dependency *(jika Laravel)*
+
+```bash
+composer install
+npm install
+```
+
+4. Copy file environment:
+
+```bash
+cp .env.example .env
+```
+
+5. Generate key *(jika Laravel)*
+
+```bash
+php artisan key:generate
+```
+
+6. Atur database di file `.env`
+
+```env
+DB_DATABASE=booking_lapangan
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+7. Jalankan migrasi:
+
+```bash
+php artisan migrate
+```
+
+8. Jalankan server:
+
+```bash
+php artisan serve
+```
+
+
+
+
+
+
+
