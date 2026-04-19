@@ -42,21 +42,6 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Redberry](https://redberry.international/laravel-development)**
 - **[Active Logic](https://activelogic.com)**
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
 # Sistem Booking Lapangan
@@ -76,57 +61,24 @@ Website sistem booking lapangan olahraga yang memudahkan pengguna untuk melakuka
 
 ## Cara Install Project
 
-1. Clone repository:
+
+1. Masuk ke folder project:
 
 ```bash
-git clone https://github.com/khalizzz/sistem-booking-lapangan.git
+cd laravel-app
 ```
 
-2. Masuk ke folder project:
-
-```bash
-cd sistem-booking-lapangan
-```
-
-3. Install dependency *(jika Laravel)*
-
-```bash
-composer install
-npm install
-```
-
-4. Copy file environment:
-
-```bash
-cp .env.example .env
-```
-
-5. Generate key *(jika Laravel)*
-
-```bash
-php artisan key:generate
-```
-
-6. Atur database di file `.env`
-
-```env
-DB_DATABASE=booking_lapangan
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-7. Jalankan migrasi:
-
-```bash
-php artisan migrate
-```
-
-8. Jalankan server:
+2. Install dependency *(jika Laravel)*
 
 ```bash
 php artisan serve
 ```
 
+3. Buka aplikasi di browser:
+
+```bash
+(http://127.0.0.1:8000)
+```
 
 
 
